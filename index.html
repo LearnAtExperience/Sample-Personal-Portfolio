@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Personal Portfolio</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3237/3237472.png" type="image/x-icon">
+</head>
+
+<body>
+  <main class='main'>
+    <nav class='navBar'>
+      <h1>Santhosh Sivan Portfolio</h1>
+      <div class='navigationMenu'>
+        <a href="#aboutMe">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contactForm">Let's Connect!</a>
+        <div>
+    </nav>
+    <section class='heroSection'>
+      <img class='profileImage' src='Me Crop.jpg' />
+      <div class='herosectionDetails'>
+        <h1>Santhosh Sivan A</h1>
+        <h3>Front-End Web Development Enthusiast</h3>
+      </div>
+    </section>
+    <section class='aboutMe' id='aboutMe'>
+      <h1>What I Know and What I am done...</h1>
+      <p>I have made the front-end design for some webpages as responsive using HTML5, CSS3 and JavaScript. I have
+        designed the landing page of Netflix Clone by the help of 7 days free bootcamp provided by ShapeAI. I am an IT
+        Aspirant and Front-end Web Development Enthusiast. I know the fundamentals of HTML5, CSS3 and JavaScript.</p>
+    </section>
+    <section class='skillsAndProjects'>
+      <div class='skills' id='skills'>
+        <h1 class='cardHeading'>Skills</h1>
+        <img title='HTML5' src='https://cdn-icons-png.flaticon.com/512/174/174854.png'>
+        <img title='CSS3' src='https://cdn-icons-png.flaticon.com/512/732/732190.png'>
+        <img title='JavaScript'
+          src='https://www.vhv.rs/dpng/d/313-3133777_javascript-transparent-background-svg-hd-png-download.png'>
+      </div>
+      <div class='projects' id='projects'>
+        <h1 class='cardHeading'>Projects</h1>
+        <div class='projectContainer'>
+          <img src='https://cdn-icons-png.flaticon.com/512/136/136527.png' />
+          <div class='projectDescription'>
+            <h4>Netflix Landing Page</h4>
+            <p>Designed using HTML5, CSS3 and JavaScript with the help of 7 days free bootcamp provided by ShapeAI</p>
+          </div>
+        </div>
+        <div class='projectContainer'>
+          <img src='https://cdn-icons-png.flaticon.com/512/136/136527.png' />
+          <div class='projectDescription'>
+            <h4>Personal Portfolio</h4>
+            <p>Designed using HTML5 and CSS3 with the help of 7 days free bootcamp provided by ShapeAI</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class='contactForm' id='contactForm'>
+      <h1>Let's Connect!</h2>
+        <div class='formGroup'>
+          <label for='name'>Enter Full Name</label><br />
+          <input type='text' id='name' placeholder='Full Name' />
+        </div>
+        <div class='formGroup'>
+          <label for='email'>Email</label><br />
+          <input type='text' id='email' placeholder='Email' />
+        </div>
+        <div class='formGroup'>
+          <label for='message'>Message</label><br />
+          <textarea placeholder="Send some message!" id="message" name="w3review" rows="4" cols="50"></textarea>
+        </div>
+        <button class='submitButton' onClick={submit()}>Connect</button>
+    </section>
+  </main>
+</body>
+
+</html>
